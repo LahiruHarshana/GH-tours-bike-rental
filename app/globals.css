@@ -72,15 +72,17 @@
       .cinematic-side-note{left:14px}
     }
     @media(max-width:760px){
-      .cinematic-hero.hero{height:300vh}
-      .cinematic-copy{left:23px;right:23px;top:48%;max-width:none}
-      .cinematic-copy h1,.cinematic-copy h2{font-size:clamp(58px,20vw,88px);line-height:1.05;letter-spacing:-.03em}
+      .loader-logo{width:44px;height:44px}
+      .loader-word{font-size:10px}
+      .cinematic-hero.hero{height:250vh}
+      .cinematic-copy{left:20px;right:20px;top:48%;max-width:none}
+      .cinematic-copy h1,.cinematic-copy h2{font-size:clamp(46px,16vw,72px);line-height:1.05;letter-spacing:-.03em}
       .cinematic-copy p{font-size:13px;max-width:330px}
       .cinematic-side-note,.cinematic-controls,.cinematic-scroll{display:none}
       .cinematic-book{right:15px;top:85px;padding:11px 12px}
       .cinematic-roman{bottom:30px;gap:24px;width:100%;justify-content:center;left:50%;transform:translateX(-50%)}
-      .cinematic-gallery-caption{top:16%;width:100%}
-      .cinematic-gallery-caption strong{font-size:22px}
+      .cinematic-gallery-caption{top:12%;width:100%}
+      .cinematic-gallery-caption strong{font-size:20px}
     }
 
 
@@ -322,6 +324,16 @@
     @media(max-width:480px){
       :root{--container:calc(100% - 20px)}
       main>.section{padding:68px 0}
+      .loader-inner{gap:16px}
+      .loader-logo{width:36px;height:36px}
+      .loader-word{font-size:9px}
+      .cinematic-hero.hero{height:200vh}
+      .cinematic-copy h1,.cinematic-copy h2{font-size:clamp(38px,14vw,56px)}
+      .cinematic-copy p{font-size:12px;margin:12px 0 16px}
+      .cinematic-book{right:10px;top:70px;padding:8px 10px}
+      .cinematic-roman{bottom:20px;gap:18px}
+      .cinematic-gallery-caption{top:10%}
+      .cinematic-gallery-caption strong{font-size:18px}
       .eyebrow{font-size:9px;letter-spacing:.13em}
       .section-title{font-size:clamp(39px,13vw,56px)}
       .service-card:nth-child(n){min-height:520px}
@@ -340,6 +352,8 @@
     }
 
     @media(max-width:380px){
+      .cinematic-hero.hero{height:180vh}
+      .cinematic-copy h1,.cinematic-copy h2{font-size:clamp(34px,13vw,44px)}
       .service-card:nth-child(n){min-height:480px}
       .scene-card,.scene-card:nth-of-type(n){height:62svh}
       .safari-row{grid-template-columns:88px 1fr}
